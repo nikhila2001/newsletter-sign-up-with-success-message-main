@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/newsletter-sign-up-with-success-message-main/static/css/main.fabc7a55.css",
+    "main.js": "/newsletter-sign-up-with-success-message-main/static/js/main.4d6fc4c4.js",
+    "index.html": "/newsletter-sign-up-with-success-message-main/index.html",
+    "main.fabc7a55.css.map": "/newsletter-sign-up-with-success-message-main/static/css/main.fabc7a55.css.map",
+    "main.4d6fc4c4.js.map": "/newsletter-sign-up-with-success-message-main/static/js/main.4d6fc4c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fabc7a55.css",
+    "static/js/main.4d6fc4c4.js"
+  ]
+}
