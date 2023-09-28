@@ -13,8 +13,8 @@ export default function Success() {
           <div className="card-body p-5 ">
             {/* Success icon */}
             <img
-              src="/assets/images/icon-success.svg"
-              alt=""
+              src={process.env.PUBLIC_URL + "/assets/images/icon-success.svg"}
+              alt="success-icon"
               className="success-icon"
             />
             {/* Success message */}
