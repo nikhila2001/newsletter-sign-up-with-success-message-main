@@ -1,0 +1,77 @@
+/* || CSS RESET || */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* || GENERAL STYLES || */
+body {
+  background-color: hsl(235, 18%, 26%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* || CONTAINER STYLES || */
+.App {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  max-width: 60%;
+}
+/* || LIST OF SUCCESS ICON || */
+.custom-icon-size {
+  width: 20px;
+  height: 20px;
+}
+/* || SIGN-UP-PAGE HEADER  || */
+.header {
+  font-weight: bolder;
+  color: hsl(234, 29%, 20%);
+  font-family: "Roboto", sans-serif;
+}
+/* || SIGN-UP-PAGE INTRO || */
+p {
+  color: hsl(235, 18%, 26%);
+}
+/* || SIGN-UP FORM || */
+form > label {
+  color: hsl(234, 29%, 20%);
+}
+/* || SUBMIT BUTTON || */
+button {
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+}
+.subscribe:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(248, 81, 150),
+    rgb(247, 98, 11)
+  );
+  box-shadow: 0px 5px 10px 12px rgba(252, 111, 30, 0.267);
+}
+
+/* || STYLES AT 375PX OR LESS || */
+@media (max-width: 375px) {
+  .App {
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img {
+    display: block;
+    object-fit: cover;
+  }
+}
+/* || STYLES AT 1440PX OR MORE|| */
+@media (min-width: 1440px) {
+  .mobile-img {
+    display: none;
+  }
+}
