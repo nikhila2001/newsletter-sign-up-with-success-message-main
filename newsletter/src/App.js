@@ -50,12 +50,12 @@ function App() {
               <img
                 className="mobile-img  "
                 src="assets/images/illustration-sign-up-mobile.svg"
-                alt="sign-up image"
+                alt="sign-up "
               />
               <img
                 className="desktop-img img-fluid  h-100"
                 src="assets/images/illustration-sign-up-desktop.svg"
-                alt="sign-up image"
+                alt="sign-up "
               />
             </div>
             {/* Headings and content */}

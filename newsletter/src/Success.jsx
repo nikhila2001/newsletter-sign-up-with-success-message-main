@@ -29,12 +29,12 @@ export default function Success() {
               button inside to confirm your subscription
             </p>
             {/* Dismiss button */}
-            <a
-              href="#"
+            <button
+              type="button"
               className=" dismiss-btn  btn btn-primary mt-3 w-100 p-3"
             >
               Dismiss message
-            </a>
+            </button>
           </div>
         </div>
       </div>
